@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+  color : rgb(0, 0, 0);
+}
+
+.app{
+  display: flex;
+}
+
+body{
+  background-color: black;
+}
+.cont{
+  margin: 20px;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  height: 400px;
+  width: 280px;
+  border-radius: 10px;
+}
+.top{
+  /* background-color: rgb(255, 255, 255); */
+  display: flex;
+  justify-content: space-between;
+}
+.logo{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.companyName{
+  font-size: 25px;
+}
+.position{
+  font-size: 33px;
+}
+.center{
+  /* background-color: rgb(255, 255, 255); */
+  margin-top: 50px;
+  padding: 12px;
+}
+.center span{
+  background-color: rgb(225, 225, 225);
+  font-size: 20px;
+  padding: 3px; 
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.bottom{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  font-size: 25px;
+  font-weight: 600;
+}
+
