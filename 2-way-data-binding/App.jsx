@@ -34,4 +34,8 @@ function App() {
 export default App
 
 // tailwindcss is not working here
+// so, the line " @import "tailwindcss";" sholud be added to the file index.css not to file 'App.jsx' 
+// then  "import './App.css'" for App.jsx
+// but it is is already in Main.jsx file 
+//
 
